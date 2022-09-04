@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="./validation.js"></script>
+</head>
+<body>
+    <div id="tag-a-header">
+        <a id="a-dangki" href="#" onclick="dangki()">SIGN UP</a>
+        <a id="a-dangnhap" href="#" onclick="dangnhap()">LOGIN</a>
+    </div>
+    <div id="container">
+        <div id="divdangki">
+            <form action="abc.php" name="form1">
+                <h2 >Create new account <span style=" font-size:42px;color:#f01d6b">.</span> </h2>
+                <hr style="width:80%">
+                <table>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-user"></i></td>
+                        <td class="td-all-i">User Name</td>
+                        <td> <input type="text" id="tendangnhap" class="inputCSS"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-lock"></i> </td>
+                        <td class="td-all-i">Password</td>
+                        <td> <input type="password" id="matkhau" class="inputCSS"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-envelope"></i> </td>
+                        <td class="td-all-i"> Email</td>
+                        <td> <input type="text" id="email" class="inputCSS"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><ion-icon name="briefcase"></ion-icon>  </i></td>
+                        <td class="td-all-i">Job</td>
+                        <td>
+                            <select name="nghenghiep" id="nghenghiep" class="inputCSS">
+                                <option class="nghenghiep-option" value="#">Please Select</option>
+                                <option value="#">Developer</option>
+                                <option value="#">Doctor</option>
+                                <option value="#">Accoutant</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-address-card"> </td>
+                        <td class="td-all-i"> Age</td>
+                        <td> <input type="text" id="email" class="inputCSS"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><ion-icon name="male-outline"></ion-icon> </td>
+                        <td class="td-all-i">Gender</td>
+                        <td> 
+                            <input type="radio" name="gioitinh" class="gioitinh" id="nam">Nam
+                            <input type="radio" name="gioitinh" class="gioitinh" id="nu">Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                         
+                        <td colspan="3"> <input type="submit" id="submit-dangki" value="SIGN UP"></td>
+                    </tr>
+                </table>
+                <p style=" padding-left : 125px;color: grey;">Already Have An Account ? <a href="#" id="aleardy-account" onclick="dangnhap()">LOGIN</a> </p>
+            </form>
+        </div>
+        <div id="divdangnhap">
+            <form action="abc.php" name="form2">
+                <h2>Welcome Back <span style=" font-size:42px;color:#f01d6b">.</span></h2>
+                <hr style="width:80%">
+                <table>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-user"></i></td>
+                        <td class="td-all-i">User Name</td>
+                        <td> <input type="text" id="tendangnhap2" class="inputCSS"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td-all-i"><i class="fa fa-lock"></i> </td>
+                        <td class="td-all-i">Password</td>
+                        <td> <input type="password" id="matkhau2" class="inputCSS"> </td>
+                    </tr>
+
+                </table>
+                <br>
+                    <div class="dangnhap-content" style="text-align:center; ">
+                        <input type="checkbox"> Remember password
+                    </div>
+                    <br>
+                    <input type="submit" id="submit-dangnhap" value="LOGIN">
+                    <div class="dangnhap-content" style="text-align:center; ">
+                        <a href="#" id="forgot-password" >Forgot Password ?</a>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

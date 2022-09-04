@@ -1,0 +1,168 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #525461;
+  font-family: 'Montserrat', sans-serif;;
+  color: white;
+}
+#divdangki h2,#divdangnhap h2{
+    text-shadow: 1px 2px #f01d6b;
+    text-align:center;
+    padding-top: 8px;
+    margin: 0 0 15px;
+    color: rgb(255, 255, 255); 
+}
+#tag-a-header{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+#a-dangki,#a-dangnhap{
+     padding: 10px 20px 6px;
+     border-top-left-radius: 9px;
+     border-top-right-radius: 9px;
+     margin-left: 10px;
+     font-size: 20px;
+     text-decoration: none;
+      font-weight: 900;
+      letter-spacing: 1px;
+      transition: padding 0.5s;
+}
+#a-dangki{
+    background-color: #282a37;
+    margin-left: 50px;
+    color: white;
+    
+}
+#a-dangki:hover,#a-dangnhap:hover{
+    background-color: #282a37;
+    color: #f84989;
+    letter-spacing: 1px;
+    padding: 10px 28px 6px;
+}
+#a-dangnhap{
+    background-color: gray;
+    color: white;
+}
+#container #divdangki  
+ table{
+    padding-left: 50px;
+}
+.inputCSS{
+    background-color: #323645;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+tr td input[type=text]{
+    background-color: #323645;
+     
+}
+#divdangki{
+    margin:0 auto;
+    border-radius: 9px;
+    margin-top: 6px;
+    box-shadow: 8px 8px 15px #2a2a2a;
+    display: block;
+    width: 500px;
+    height: 555px;
+    background-color: #282a37;
+}
+#divdangnhap{
+    margin:0 auto;
+    border-radius: 9px;
+    margin-top: 6px;
+    box-shadow: 8px 8px 15px #2a2a2a;
+    display: none;
+    width: 500px;
+    height: 410px;
+    background-color: #282a37;
+}
+#nghenghiep{
+    cursor: pointer;
+}
+#divdangki table tr td i{
+    margin-right: 15px;
+}
+#divdangnhap table tr td i{
+    margin-right: 22px;
+}
+.td-all-i{
+     font-size:20px;
+     padding-top: 10px; 
+     
+}
+.nghenghiep-option {
+     
+    cursor: pointer;
+
+}
+.gioitinh{
+    margin-top: 17px;
+    margin-left: 12px;
+}
+#submit-dangki{
+    padding: 20px 165px;
+    margin-top: 30px;
+    background-color: #f01d6b;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#submit-dangki:hover{
+     
+    background-color: #920036;
+    color: white;
+    
+}
+#aleardy-account{
+    color:#f01d6b;
+    text-decoration:none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#aleardy-account:hover{
+    color:#920036;
+    text-decoration:none;
+    
+}
+#divdangnhap table{
+    margin-left: 50px;
+}
+#forgot-password{
+     
+    color:#f01d6b;
+    text-decoration:none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#forgot-password:hover{
+    color:#be0046;
+}
+#submit-dangnhap{
+    padding: 20px 165px;
+    
+    background-color: #f01d6b;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 0 30px 50px;
+}
+#submit-dangnhap:hover{
+    background-color: #920036;
+    color: white;
+}
