@@ -139,14 +139,14 @@ tr td input[type=text]{
 #divdangnhap table{
     margin-left: 50px;
 }
-.forgot-password{
+#forgot-password{
      
     color:#f01d6b;
     text-decoration:none;
     font-weight: 300;
     letter-spacing: 1px;
 }
-.forgot-password:hover{
+#forgot-password:hover{
     color:#be0046;
 }
 #submit-dangnhap{
